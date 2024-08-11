@@ -1,3 +1,5 @@
+import time
+
 #how to print hello world in python
 print("Hello World")
 #for create a break line
@@ -51,3 +53,13 @@ address = "Rosario Pasig City"
 
 # Concatenate strings using the + operator
 print("Hello my name is " + name + "\nI am " + str(age) + "\nI live in " + address)
+
+
+#meme python
+
+def broReaction():
+    print("damn..")
+
+print("humm...")
+time.sleep(300)
+broReaction()
