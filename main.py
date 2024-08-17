@@ -27,3 +27,11 @@ else:
     print("Invalid number, please try again!")
     
 
+animal = "DOG"
+print(animal[0])
+
+x = "arctic"
+
+
+# now i know that is possible to print only a part of a string
+print(x[2] + x[0] + x[3])
