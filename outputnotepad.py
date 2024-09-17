@@ -4,7 +4,8 @@ import subprocess
 # command = ["java", "--version"]
 # command = ["cmd", "/c", "dir"]
 # command = ["python", "day.5.py"]
-command = ["pip", "install", "pytube", "lyricsgenius"]
+# command = ["pip", "install", "pytube", "lyricsgenius"]
+command = ["docker","build","-t","my-docker-app"]
 result = subprocess.run(command, capture_output=True, text=True)
 
 # Get the standard output and error
